@@ -1,0 +1,18 @@
+.flightList{
+  background: white;
+    padding: 25px;
+    &__td,{
+      padding:10px;
+    }
+    &__th{
+      padding:10px;
+      font-weight:500;
+
+    }
+    &__tr{
+      cursor:pointer;
+      &:hover{
+        background: #faac1a;
+      }
+    }
+}

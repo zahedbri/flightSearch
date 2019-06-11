@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+html {
+  height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+  background:$background;
+}
+
+* {
+  -webkit-box-sizing: border-box !important;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box !important;
+  /* Firefox, other Gecko */
+  box-sizing: border-box !important;
+  /* Opera/IE 8+ */
+}
+
+.appContainer{
+  max-width: 1200px;
+  margin:0 auto;
+  text-transform: capitalize;
+}
