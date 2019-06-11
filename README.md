@@ -24,7 +24,7 @@ On the root of this project run on your terminal (if you want you can do this wi
   npm run watch
 ```
 
-**Javascript Structure **
+**Javascript Structure**
 ```
 assets/js: Entry Folder
 assets/js/main.js : Redux Store / Index file
@@ -34,7 +34,7 @@ assets/js/components : React Components
 assets/js/components/forms : Field Validation/ redux-fields...
 ```
 
-**SCSS Structure **
+**SCSS Structure**
 ```
 assets/scss: Entry Folder
 assets/scss/0-plugins:materialize,react-datetime
