@@ -1,9 +1,6 @@
 input  {
   text-transform: capitalize;
   box-sizing: border-box !important;
-
-  // padding: 0 5px !important;
-
   &:focus {
     border-bottom: 1px solid $border-input-bottom !important;
     box-shadow: 0 1px 0 0 $border-input-bottom !important;

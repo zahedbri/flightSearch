@@ -1,31 +1,29 @@
-.flightAddNew{
-  margin:2rem auto;
-
-  .form{
-    background: #fff;
-    padding:50px;
-    max-width: 900px;
-    margin:0 auto;
-
-    &__container{
-      display: flex;
-      flex-direction: column;
-justify-content: space-between;
-    }
-    &__group{
-      display: flex;
-      margin:2rem 0;
-      @media only screen and (max-width:$breakpoint-tablet) {
-        flex-direction: column;
-}
-    }
-  }
-  &__field{
-    &--flex2{
-      flex:2
-    }
-    &--flex1{
-      flex:1
-    }
-  }
+.flightAddNew {
+	margin: 2rem auto;
+	.form {
+		background: #fff;
+		padding: 50px;
+		max-width: 900px;
+		margin: 0 auto;
+		&__container {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		&__group {
+			display: flex;
+			margin: 2rem 0;
+			@media only screen and (max-width: $breakpoint-tablet) {
+				flex-direction: column;
+			}
+		}
+	}
+	&__field {
+		&--flex2 {
+			flex: 2
+		}
+		&--flex1 {
+			flex: 1
+		}
+	}
 }
