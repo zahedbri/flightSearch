@@ -25,18 +25,20 @@ On the root of this project run on your terminal (if you want you can do this wi
 ```
 
 **Javascript Structure **
-assets/js: Entry Folder
+```assets/js: Entry Folder
 assets/js/main.js : Redux Store / Index file
 assets/js/actions : redux actions
 assets/js/reducers : redux reducers
 assets/js/components : React Components
 assets/js/components/forms : Field Validation/ redux-fields...
+```
 
 **SCSS Structure **
-assets/scss: Entry Folder
+```assets/scss: Entry Folder
 assets/scss/0-plugins:materialize,react-datetime
 assets/scss/1-helpers:variables
 assets/scss/2-base:resets,global styles, etc
 assets/scss/3-layout:footer,nav, etc
 assets/scss/4-modules:flight search,modals, etc
 assets/scss/5-templates:any over-riding styles for layouts or modules
+```
